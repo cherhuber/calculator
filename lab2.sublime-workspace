@@ -1,0 +1,547 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bo",
+				"border-width"
+			],
+			[
+				"a",
+				"text-align"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"button",
+				"button_section"
+			],
+			[
+				"calc",
+				"calc_buttons"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"stu",
+				"studentid"
+			],
+			[
+				"last",
+				"lastname"
+			],
+			[
+				"fi",
+				"firstname"
+			],
+			[
+				"va",
+				"valid_string"
+			],
+			[
+				"key",
+				"keycode"
+			],
+			[
+				"subm",
+				"submitHandler"
+			],
+			[
+				"k",
+				"keycode"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"s",
+				"submitHandler"
+			],
+			[
+				"fo",
+				"forminput"
+			],
+			[
+				"st",
+				"student_id"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"stud",
+				"studentid"
+			],
+			[
+				"stude",
+				"student_id"
+			],
+			[
+				"er",
+				"error_string"
+			],
+			[
+				"sub",
+				"submitHandler"
+			],
+			[
+				"su",
+				"submitHandler"
+			],
+			[
+				"gt",
+				"getElementById"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"Hand",
+				"HandlerErrorLog"
+			],
+			[
+				"audit",
+				"auditlog"
+			],
+			[
+				"fe",
+				"federalContribution"
+			],
+			[
+				"hour",
+				"hoursWorked"
+			],
+			[
+				"week",
+				"weeklyPay"
+			],
+			[
+				"hou",
+				"hoursWorked"
+			],
+			[
+				"ho",
+				"hourlyWage"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"the",
+				"thead	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/ETD/resources/views/pages/theses/edit.blade.php",
+		"/Applications/MAMP/htdocs/ETD/app/Http/routes.php",
+		"/Applications/MAMP/htdocs/ETD/app/Models/Thesis.php",
+		"/Applications/MAMP/htdocs/ETD/app/Http/Controllers/ThesisController.php",
+		"/Applications/MAMP/htdocs/l5todo/vendor/phpunit/phpunit/tests/TextUI/failure-isolation.phpt",
+		"/Applications/MAMP/htdocs/l5todo/config/filesystems.php",
+		"/Applications/MAMP/htdocs/l5todo/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php",
+		"/Applications/MAMP/htdocs/ETD/database/seeds/ThesisTableSeeder.php",
+		"/Applications/MAMP/htdocs/l5todo/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcherInterface.php",
+		"/Applications/MAMP/htdocs/l5todo/vendor/league/flysystem/src/Plugin/EmptyDir.php",
+		"/Applications/MAMP/htdocs/l5todo/.idea/encodings.xml",
+		"/Applications/MAMP/htdocs/ETD/database/migrations/2015_03_12_172523_add_pagination_to_thesis_table.php",
+		"/Applications/MAMP/htdocs/ETD/storage/logs/laravel-2015-03-17.log",
+		"/Applications/MAMP/htdocs/ETD/.env",
+		"/Applications/MAMP/htdocs/ETD/database/seeds/UserTableSeeder.php",
+		"/Applications/MAMP/htdocs/l5todo/resources/views/auth/login.blade.php",
+		"/Applications/MAMP/htdocs/l5todo/vendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php",
+		"/Applications/MAMP/htdocs/l5todo/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/LogicalOr.php",
+		"/Applications/MAMP/htdocs/l5todo/.idea/l5todo.iml",
+		"/Applications/MAMP/htdocs/l5todo/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfCompact.yml",
+		"/Applications/MAMP/htdocs/l5todo/vendor/sebastian/comparator/src/Comparator.php",
+		"/Applications/MAMP/htdocs/l5todo/composer.lock",
+		"/Applications/MAMP/htdocs/ETD/composer.lock",
+		"/Applications/MAMP/htdocs/l5todo/composer.json",
+		"/Applications/MAMP/htdocs/l5todo/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/CharsetObserver.php",
+		"/Applications/MAMP/htdocs/l5todo/vendor/phpunit/phpunit/tests/TextUI/testdox-html.phpt",
+		"/Applications/MAMP/htdocs/l5todo/app/Task.php",
+		"/Applications/MAMP/htdocs/l5todo/server.php",
+		"/Applications/MAMP/htdocs/l5todo/app/User.php",
+		"/Applications/MAMP/htdocs/ETD/database/seeds/DatabaseSeeder.php",
+		"/Applications/MAMP/htdocs/l5todo/config/app.php",
+		"/Applications/MAMP/htdocs/l5todo/app/Http/routes.php",
+		"/Applications/MAMP/htdocs/l5todo/database/.gitignore",
+		"/Applications/MAMP/htdocs/ETD/app/Exceptions/Handler.php",
+		"/Applications/MAMP/htdocs/ETD/app/Handlers/HandlerErrorLog.php",
+		"/Applications/MAMP/htdocs/ETD/bootstrap/app.php",
+		"/Applications/MAMP/htdocs/ETD/config/app.php",
+		"/Applications/MAMP/htdocs/ETD/storage/logs/laravel-2015-03-05.log",
+		"/Applications/MAMP/htdocs/ETD/public/robots.txt",
+		"/Applications/MAMP/htdocs/ETD/readme.md",
+		"/Applications/MAMP/htdocs/ETD/storage/logs/laravel-2015-03-04.log",
+		"/Applications/MAMP/htdocs/ETD/storage/logs/laravel-2015-02-26.log",
+		"/Applications/MAMP/htdocs/ETD/vendor/phpunit/phpunit/src/Framework/Constraint/ClassHasAttribute.php",
+		"/Applications/MAMP/htdocs/ETD/public/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/ETD/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp.php",
+		"/Applications/MAMP/htdocs/ETD/vendor/laravel/framework/src/Illuminate/Pagination/BootstrapThreePresenter.php",
+		"/Applications/MAMP/htdocs/ETD/vendor/jakub-onderka/php-console-color/tests/bootstrap.php",
+		"/Applications/MAMP/htdocs/ETD/vendor/laravel/framework/src/Illuminate/Database/MySqlConnection.php",
+		"/Users/cheryl/Documents/CSUCI/Comp350/Lab5/SalaryDemo/src/test/salarydemo/Manager.java",
+		"/Applications/MAMP/htdocs/ETD/resources/views/pages/auth/login.blade.php",
+		"/Applications/MAMP/htdocs/ETD/resources/assets/less/bootstrap/glyphicons.less",
+		"/Applications/MAMP/htdocs/ETD/gulpfile.js",
+		"/Applications/MAMP/htdocs/ETD/app/start/global.php",
+		"/Applications/MAMP/htdocs/ETD/app/config/auth.php",
+		"/Applications/MAMP/htdocs/ETD/app/handlers/HandlerError.php",
+		"/Users/cheryl/Desktop/myHandlerError.php",
+		"/Users/cheryl/Desktop/myoutes.php",
+		"/Users/cheryl/Desktop/myglobal.php",
+		"/Applications/MAMP/htdocs/ETD/app/filters.php",
+		"/Applications/MAMP/htdocs/ETD/bootstrap/autoload.php",
+		"/Applications/MAMP/htdocs/ETD/CONTRIBUTING.md",
+		"/Applications/MAMP/htdocs/ETD/app/database/production.sqlite",
+		"/Users/cheryl/Documents/CSUCI/Comp350/Lab5/SalaryDemo/src/test/salarydemo/Employee.java",
+		"/Users/cheryl/Documents/CSUN/MetaLab/ETD/app/start/global.php",
+		"/Applications/MAMP/htdocs/ETD/app/views/pages/errors/401.blade.php",
+		"/Users/cheryl/Documents/CSUCI/Comp350/Lab5/SalaryDemo/src/test/salarydemo/SalariedEmployee.java",
+		"/Users/cheryl/Documents/CSUCI/Comp350/Lab5/SalaryDemo/src/test/salarydemo/StudentEmployee.java",
+		"/Applications/MAMP/htdocs/ETD/app/views/layouts/partials/header.blade.php",
+		"/Applications/MAMP/htdocs/ETD/app/controllers/AuthController.php",
+		"/Applications/MAMP/htdocs/ETD/app/config/testing/cache.php",
+		"/Applications/MAMP/htdocs/ETD/app/tests/TestCase.php",
+		"/Applications/MAMP/htdocs/ETD/app/views/pages/auth/login.blade.php",
+		"/Applications/MAMP/htdocs/ETD/app/start/local.php",
+		"/Users/cheryl/Documents/CSUN/Comp 484/Lab1/test.css",
+		"/Users/cheryl/Documents/CSUN/Comp 484/Lab1/test.html",
+		"/Users/cheryl/Documents/CSUN/Comp 484/Lab1/lab1.css",
+		"/Applications/MAMP/htdocs/phaser_tutorial_02/part9.html",
+		"/Users/cheryl/Documents/CSUN/Comp 484/Lab1/lab1.html",
+		"/Users/cheryl/Downloads/saasbook-0.10.3.vdi",
+		"/Applications/MAMP/htdocs/phaser_tutorial_02/part1.html",
+		"/Users/cheryl/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/cheryl/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/cheryl/Documents/CSUCI/Comp350/Lab4/Lab4Part3/phaser_tutorial_02/part1.html",
+		"/Applications/MAMP/bin/mamp/phpmyadmin.php",
+		"/Users/cheryl/Documents/CSUN/Comp 484/test2.html",
+		"/Users/cheryl/Documents/CSUN/Comp 484/test.html",
+		"/Users/cheryl/Documents/CSUN/Comp 484/test3.html",
+		"/Users/cheryl/Documents/CSUCI/Comp350/Lab1Part4/.gitignore",
+		"/Users/cheryl/Documents/CSUCI/Comp350/FactorialProject/Factorial.java",
+		"/Applications/MAMP/htdocs/faculty/vendor/intervention/image/src/Intervention/Image/ImageServiceProvider.php",
+		"/Applications/MAMP/htdocs/faculty/app/models/Image.php",
+		"/Applications/MAMP/htdocs/faculty/vendor/intervention/image/tests/ImageManagerTest.php",
+		"/Applications/MAMP/htdocs/learning-laravel/public/index.php",
+		"/Applications/MAMP/htdocs/learning-laravel/app/models/User.php",
+		"/Applications/MAMP/htdocs/faculty/app/providers/UserProviderLDAP.php",
+		"/Applications/MAMP/htdocs/learning-laravel/vendor/phpseclib/phpseclib/travis/upload-code-coverage-html.sh",
+		"/Applications/MAMP/htdocs/faculty/public/bower_components/imagesloaded/imagesloaded.js",
+		"/Applications/MAMP/htdocs/faculty/vendor/nikic/php-parser/doc/0_Introduction.markdown",
+		"/Applications/MAMP/htdocs/faculty/vendor/predis/predis/lib/Predis/Profile/ServerVersion20.php",
+		"/Applications/MAMP/htdocs/faculty/app/controllers/OfficehourController.php",
+		"/Users/cheryl/Documents/CSUN/Comp 484/lab0.html",
+		"/Applications/MAMP/htdocs/faculty/public/js/scripts.js",
+		"/Users/cheryl/Documents/CSUCI/Comp350/Lab1Part1/README.md",
+		"/Users/cheryl/Documents/CSUCI/Comp350/Lab1Part1/.gitignore",
+		"/Users/cheryl/Documents/CSUCI/Comp350/Lab1Part1/Factorial.java",
+		"/Applications/MAMP/htdocs/faculty/app/controllers/StoryController.php",
+		"/Applications/MAMP/htdocs/learning-laravel/server.php",
+		"/Applications/MAMP/htdocs/faculty/app/models/Officehour.php",
+		"/Applications/MAMP/htdocs/learning-laravel/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatter.php",
+		"/Users/cheryl/Documents/CSUN/MetaLab/faculty/app/models/Term.php",
+		"/Applications/MAMP/htdocs/faculty/env.php",
+		"/Users/cheryl/Documents/CSUN/MetaLab/faculty/app/routes.php",
+		"/Users/cheryl/Documents/CSUN/MetaLab/faculty/app/controllers/OfficehourController.php",
+		"/Applications/MAMP/htdocs/faculty/.env.php",
+		"/Applications/MAMP/htdocs/learning-laravel/app/routes.php",
+		"/Applications/MAMP/htdocs/learning-laravel/vendor/predis/predis/lib/Predis/ResponseObjectInterface.php",
+		"/Applications/MAMP/htdocs/learning-laravel/readme.md",
+		"/Applications/MAMP/htdocs/learning-laravel/app/config/database.php",
+		"/Applications/MAMP/htdocs/learning-laravel/app/views/hello.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/ETD",
+			"/Applications/MAMP/htdocs/l5todo",
+			"/Applications/MAMP/htdocs/ETD",
+			"/Users/cheryl/Documents/CSUN/MetaLab/faculty"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fill",
+			"keywords",
+			"pagination",
+			"plan_id",
+			"app",
+			"embargo_reason",
+			"embargo_id",
+			"msf61294",
+			"embargo_id",
+			"thes",
+			"compact",
+			"theses",
+			"collation",
+			"utf8_general_ci",
+			"utf8_general",
+			"project",
+			"handlerhelper",
+			"configureSysloghandler",
+			"configureDailyHandler",
+			"<?",
+			"HandlerHelper",
+			"',\n",
+			"Input",
+			"handlerErro",
+			"driver",
+			"tab",
+			"doctype",
+			"nowandnext",
+			"term"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "lab2.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"thesiscont",
+				"ETD/app/Http/Controllers/ThesisController.php"
+			],
+			[
+				"compact",
+				"l5todo/vendor/symfony/yaml/Symfony/Component/Yaml/Tests/Fixtures/sfCompact.yml"
+			],
+			[
+				"composer",
+				"l5todo/composer.lock"
+			],
+			[
+				"the",
+				"ETD/database/seeds/ThesisTableSeeder.php"
+			],
+			[
+				"user",
+				"ETD/database/seeds/UserTableSeeder.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"rout",
+				"ETD/app/Http/routes.php"
+			],
+			[
+				"global",
+				"ETD/resources/views/pages/auth/login.blade.php"
+			],
+			[
+				"glo",
+				"ETD/app/start/global.php"
+			],
+			[
+				"gl",
+				"ETD/app/start/global.php"
+			],
+			[
+				"script",
+				"faculty/public/js/scripts.js"
+			],
+			[
+				"offic",
+				"faculty/app/controllers/OfficehourController.php"
+			],
+			[
+				"rou",
+				"faculty/app/routes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 399.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

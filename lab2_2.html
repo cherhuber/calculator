@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab 2</title>
+  <script type="text/javascript">
+  //global variables:
+     var result = "", opperand1 = "", opperand2 = "", operator ="";
+     
+     function init(){
+     	var id_input = document.getElementById("student_id");
+     	id_input.addEventListener("keypress", keyHandler,false);
+     	clearCalculator();
+     	var display_input = document.getElementById("calc_display");
+     	display_input.addEventListener("focus", displayFocus,false);
+     	var button_section = document.getElementById("calc_buttons");
+    //formatting calculator buttons 	
+     	var buttons = button_section.children;
+     	var i, num_buttons;
+     	num_buttons = buttons.length;
+     	for(i=1; i<num_buttons;i++) {
+            if(buttons[i].type == "button"){
+     		   buttons[i].style.width = "29px"; 
+            }
+     	}
+     	//document.getElementById("calc_0").style.width = "62px";
+    //listener for calculator buttons
+         	
+     }
+     function keyHandler(e){//this was modified from Dr. Kaplan's slides
+        var keychar = String.fromCharCode(e.keycode || e.charCode);
+        if (keychar < '0' || keychar > '9') {
+        	e.preventDefault();
+        }
+     }
+     function displayFocus(){
+        var display_input =  document.getElementById("calc_display");
+        //while(display_input.value == "ERROR: press C"){
+          //  display_input.value = "ERROR: press C";
+        }//
+        clearCalculator();
+        display_input.addEventListener("keypress",calcKeyHandler,false);
+
+     }
+     function clearCalculator(){
+     	result = "";
+     	opperand1 = "";
+     	opperand2 = "";
+     	operator = "";
+     	document.getElementById("calc_display").value = "";
+
+     }
+     function calcKeyHandler(e){ 
+     	var keychar = String.fromCharCode(e.keycode || e.charCode);
+        if (keychar < "0" || keychar > "9") {
+         	document.getElementById("calc_display").onkeyup = function(){
+         	   	clearCalculator();
+                this.value = "ERROR: press C";
+
+         	};
+        }else{
+            	document.getElementById("calc_display").onkeyup = function(){
+         	   	   calcBtnHandler(keychar);
+         	   	};
+            }
+        
+     }
+     function calcBtnHandler(b){
+        if(operator == ""){
+	        switch(b){
+	        	case '/': case "/":
+	        	case '*': case "*":
+	        	case '+': case "+":
+	        	case '-': case "-":
+	        	   operator = b;
+	        	   document.getElementById("calc_display").value = "";
+	        	   break; 
+	        	default:
+	        	   opperand1 += b;
+	        	   document.getElementById("calc_display").value = opperand1;
+
+	        }
+        }else{
+            switch(b){
+            	case '=': case "=":
+                  break;
+            	default:
+            	  opperand2 += b;
+            	  document.getElementById("calc_display").value = opperand2;
+            }
+        }
+        if(b === '='){
+           result = eval(result);
+           document.getElementById("calc_display").value = result;	
+        }else if(b == 'C'){
+        	clearCalculator();
+        }else{
+           result += b;
+        }
+    }
+     function submitHandler(){
+     		var fieldsOkay = true;
+     		var error_string = "";
+     		var valid_string = "";
+     		studentform = document.getElementById("studentform");
+     		var firstname, lastname, studentid, bio;
+     		firstname = document.getElementById("firstname").value;
+     		if (firstname.charAt(0)>'Z'){
+     		   error_string = "<p>Capitalize your first name.</p>";
+     		   fieldsOkay = false;
+     		}
+     		lastname = document.getElementById("lastname").value;
+            if (lastname.charAt(0)>'Z'){
+               error_string += "<p>Capitalize your last name.</p>";
+               fieldsOkay = false;
+     		}
+     		studentid = document.getElementById("student_id").value;
+     		if (studentid.length > 9 || studentid.length < 9){
+               error_string += "<p>Your student ID must be exactly 9 digits long.</p>";
+               fieldsOkay = false;
+     		}
+     		bio = document.getElementById("biography").value.split(" ");
+     		if (bio.length > 25){
+               error_string += "<p>You may only enter up to 25 words for your biography.</p>";
+               fieldsOkay = false;
+     		}
+     		document.getElementById("error_message").innerHTML = error_string;
+     		if (fieldsOkay){
+     			valid_string = "First Name: " + firstname + "\nLast Name: " + lastname +
+     				"\nStudent ID: " + studentid + "\nBio: \n" + bio;
+     			alert (valid_string);
+     		}
+     		return fieldsOkay;
+     		
+     }
+     window.addEventListener ("load", init,false);
+     		
+  </script>
+  <style>
+    div > br{
+        line-height: 10px;
+    }
+    #error_message{
+    	color:red;
+    }
+    #calc_buttons{
+    	padding: 3px;
+        margin: 3px;
+    }
+    #calc_display{
+    	text-align: right;
+    	width: 128px;
+    }
+    #calculator{
+    	border-style: solid;
+    	border-width: 1px;
+    	border-color: gray;
+    	padding: 15px;
+    	width: 150px;
+    	text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+   <div id =  "form_div">
+     <form id="studentform" onsubmit="return submitHandler()">
+	   <p><span id="error_message" ></span></p>
+	   
+	   First Name:<br/>
+	   <input type="text" id="firstname" name="firstname" >
+	   <br/>
+	   
+	   Last Name:<br/>
+	   <input type="text" id="lastname" name="lastname">
+	   <br/>
+	   
+	   Student ID Number:<br/>
+	   <input type="text" id="student_id" name="student_id">
+	   <br/>
+	   
+	   Biography:<br/>
+	   <textarea id="biography" form="studentform" rows="5" cols="50"></textarea>
+	   <br/>
+	   
+	   Calculator:<br/>
+	   <div id="calculator">
+          <input type="text" id="calc_display" name="calc_display" value="">
+          <br/>
+          <div id="calc_buttons">
+                         
+             <input type="button" id="calc_7" name="calc_7" value="7" onclick="calcBtnHandler('7')">
+             <input type="button" id="calc_8" name="calc_8" value="8" onclick="calcBtnHandler('8')">
+             <input type="button" id="calc_9" name="calc_9" value="9" onclick="calcBtnHandler('9')">
+             <input type="button" id="calc_div" name="calc_div" value="/" onclick="calcBtnHandler('/')">
+             <br/>
+             <input type="button" id="calc_4" name="calc_4" value="4" onclick="calcBtnHandler('4')">
+             <input type="button" id="calc_5" name="calc_5" value="5" onclick="calcBtnHandler('5')">
+             <input type="button" id="calc_6" name="calc_6" value="6" onclick="calcBtnHandler('6')">
+             <input type="button" id="calc_mult" name="calc_mult" value="*" onclick="calcBtnHandler('*')">
+             
+             <br/>
+             <input type="button" id="calc_1" name="calc_1" value="1" onclick="calcBtnHandler('1')">
+             <input type="button" id="calc_2" name="calc_2" value="2" onclick="calcBtnHandler('2')">
+             <input type="button" id="calc_3" name="calc_3" value="3" onclick="calcBtnHandler('3')">
+             <input type="button" id="calc_minus" name="calc_minus" value="-" onclick="calcBtnHandler('-')">
+             
+             <br/>
+             <input type="button" id="calc_0" name="calc_0" value="0" onclick="calcBtnHandler('0')">
+             <input type="button" id="calc_equal" name="calc_equal" value="=" onclick="calcBtnHandler('=')">
+             <input type="button" id="calc_plus" name="calc_plus" value="+" onclick="calcBtnHandler('+')"> 
+             <input type="button" id="calc_c" name="calc_c" value="C" onclick="calcBtnHandler('C')">
+    
+          </div>
+
+       </div>
+       <br/>
+	   <input type="submit" name="submit" id="submitBtn" value="submit" />
+     </form>
+   </div>
+</body>
+
+</html>
